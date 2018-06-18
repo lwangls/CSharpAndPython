@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CSharpAndPython"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="C#CallPython" Height="450" Width="800">
+    <StackPanel>
+        <ListBox  Margin="0,10,0,0" Height="341"/>
+
+        <Button Content="CallTuShare"  Margin="0,22,0,0" Height="38" Click="Button_Click" />
+       
+    </StackPanel>
 </Window>
